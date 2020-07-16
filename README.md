@@ -1,8 +1,11 @@
 ## Instruction
 
 In the project directory, run this command to start dummy server: node server.js 
+
 Then open another terminal window and run: npm start
+
 Accept when it asks you to open app on another port (3001 by default).
+
 Test.
 
 User data for successfull login: 
