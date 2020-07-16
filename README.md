@@ -1,3 +1,21 @@
+In the project directory, run this command to start dummy server: node server.js 
+Then open another terminal window and run: npm start
+Accept when it asks you to open app on another port (3001 by default).
+Test.
+
+User data for successfull login: 
+email: "test@test.pl", 
+password: "Test1234"
+
+You can add your own users in 'db.json' file. 
+
+App contains what I managed to do in these few hours. Its lacking tests, I would need some more time for that.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
