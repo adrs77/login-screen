@@ -1,11 +1,11 @@
 import React from 'react';
-import LoginPage from './pages/LoginPage.tsx'
+import LoginPage from './pages/LoginPage'
 
 function App() {
   return (
-    <>
+    <div>
      <LoginPage/>
-    </>
+    </div>
   );
 }
 

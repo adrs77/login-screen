@@ -93,9 +93,13 @@ const LoginFormStyled = styled.div`
     color: crimson;
     position: absolute;
     right: 15px;
+    text-align: right;
+    @media (max-width: 476px) {
+        width:  245px;
+    }
   }
   .submit-button {
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
   }
 `;
 

@@ -9,6 +9,7 @@ const db = JSON.parse(fs.readFileSync('./db.json', 'UTF-8'))
 server.use(middlewares)
 server.use(jsonServer.bodyParser)
 server.use((req, res, next) => {
+  //check if user exists
     if (req.method === 'POST') {
         let isRegistered = db.users.filter((user) => {
             return user.email === req.body.email && user.password === req.body.password
@@ -20,5 +21,5 @@ server.use((req, res, next) => {
 })
 server.use(router)
 server.listen(3000, () => {
-  console.log('JSON Server is running')
+  console.log('Server is running properly')
 })
